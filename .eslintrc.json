@@ -30,15 +30,16 @@
       {
         "ts": "never"
       }
-    ]
+    ],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
   },
   "settings": {
     "import/resolver": {
       "typescript": {}
-      /*"node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"],
-        "moduleDirectory": ["node_modules", "src/"]
-      }*/
+    /*"node": {
+      "extensions": [".js", ".jsx", ".ts", ".tsx"],
+      "moduleDirectory": ["node_modules", "src/"]
+    }*/
     }
   }
 }
